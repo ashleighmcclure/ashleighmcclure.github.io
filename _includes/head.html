@@ -1,0 +1,19 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Ashleigh McClure | {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&amp;subset=latin,latin-ext" type="text/css" media="all">
+<link rel="stylesheet" href="/themes/aurevoir/style.css" type="text/css">
+<link rel="stylesheet" href="/themes/aurevoir/style-added.css" type="text/css">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='themes/twentytwelve/css/ie.css' type='text/css' />
+<![endif]-->
+<script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script><style type="text/css"></style>
+<link rel="Shortcut Icon" type="image/x-icon" href="/themes/aurevoir/favicon.ico">
+<link href="http://fonts.googleapis.com/css?family=Pathway+Gothic+One|Open+Sans:400,300" rel="stylesheet" type="text/css">
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+</head>
