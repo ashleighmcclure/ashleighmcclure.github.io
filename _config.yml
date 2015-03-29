@@ -4,9 +4,9 @@ email: ashleighmcclure@ymail.com
 description: > # this means to ignore newlines until "baseurl:"
   Want to know about current fashion, literature, and more? This is the place.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "http://ashleighmcclure.github.io" # the base hostname & protocol for your site
 twitter_username: mcclureashleigh
-github_username:  jekyll
+github_username:  ashleighmcclure
 
 # Build settings
 markdown: kramdown
