@@ -80,3 +80,23 @@
     font-weight: lighter;
     background:#f0dea8;
 }
+
+#email {
+  width: 190px;
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  display: block;
+  text-align: center;
+  align-content: center;
+  margin-top: 8px;
+  line-height: 2;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff !important;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  background:#de6ae8;
+}
