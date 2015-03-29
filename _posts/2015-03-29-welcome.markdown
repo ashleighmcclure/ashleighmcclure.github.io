@@ -3,5 +3,3 @@ layout: post
 title:  "Welcome!"
 ---
 Welcome to my blog!
-
-![Senior Pic](http://ashleighmcclure.net/uploads/seniorpic.jpg)
